@@ -1,5 +1,8 @@
 <?php
 
+    require_once('functions.php');
+    require_once('config.php');
+
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove MORALspace.
@@ -18,7 +21,6 @@
         }
 
         // Set the recipient email address.
-        // FIXME: Update this to your desired email address.
         $recipient = "jasonyata@gmail.com";
 
         // Set the email subject.
