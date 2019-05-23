@@ -1,5 +1,4 @@
 $(function() {
-	debugger;
 
 	// Get the form.
 	var form = $('#contact-form');
