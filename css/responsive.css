@@ -176,6 +176,9 @@
 	position: relative;
 	padding-bottom: 10px;
 }
+.view-project-content > p {
+	font-size: 12px;
+}
 .header-text-black .navbar-toggler {
 	border: 2px solid #222;
 }
