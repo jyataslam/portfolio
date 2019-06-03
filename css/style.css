@@ -1949,6 +1949,11 @@ width: 100%;}
 	background-size: cover;
 }
 
+.coming-soon-image {
+	height: 75%;
+	width: 75%;
+}
+
 @media (max-width: 767px){
   .slider-area {
 		background-position-x: 43%;
